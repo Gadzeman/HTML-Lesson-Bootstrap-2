@@ -1,0 +1,127 @@
+body{
+    background: rgb(44, 50, 80);
+}
+
+.wrap{
+    width: 1140px;
+    margin: auto;
+}
+
+.fixed{
+    width: 1140px;
+    position: fixed;
+    z-index: 2;
+}
+
+.header{
+    height: 600px;
+    width: 1140px;
+    background: rgb(44, 50, 80);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-left: 17px solid white;
+    border-right: 17px solid white;
+}
+.header-2{
+    width: 400px;
+}
+
+.main-content{
+    height: 2700px;
+    width: 1140px;
+    background: white;
+}
+
+.wrap-box{
+    display: flex;
+    justify-content: space-around;
+}
+.box{
+    height: 200px;
+    width: 250px;
+    background: purple;
+    border-radius: 20px;
+    position: relative;
+    top: -100px;
+}
+
+.header-screen{
+    text-align: center;
+    width: 1140px;
+    color: rgb(44, 50, 80);
+}
+.wrap-screen{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+.screen{
+    height: 200px;
+    width: 200px;
+    background: purple;
+    border-radius: 20px;
+}
+
+.header-images{
+    padding-top: 120px;
+    text-align: center;
+    color: rgb(44, 50, 80);
+}
+.wrap-images{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+.image{
+    height: 200px;
+    width: 400px;
+    background: purple;
+    border-radius: 20px;
+}
+
+.header-pictures{
+    padding-top: 220px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: rgb(44, 50, 80);
+}
+
+.wrap-info{
+    display: flex;
+    height: 400px;
+    width: 1140px;
+}
+.info{
+    background: purple;
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    margin-top: 110px;
+    margin-left: 50px;
+}
+.info-padding{
+    padding-top: 135px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.footer{
+    height: 200px;
+    width: 1140px;
+    border-left: 17px solid white;
+    border-right: 17px solid white;
+    border-bottom: 17px solid white;
+    color: white;
+    padding-left: 50px;
+    padding-right: 90px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background: purple;
+}
